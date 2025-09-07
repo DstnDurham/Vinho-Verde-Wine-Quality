@@ -170,7 +170,9 @@ quality of the final clusters.
 ## Fitting the Model
 
 k_means.fit(X)
+
 <img width="321" height="75" alt="image" src="https://github.com/user-attachments/assets/ce02fb76-bc33-40e1-8acf-c192cde2b46c" />
+
 Figure 2. K-Means Model
 
 This line of code trains the K-means model using the provided data X. The algorithm will find
