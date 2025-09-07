@@ -101,7 +101,8 @@ Output variable:
 
     quality: score between 0 (very bad) and 10 (very excellent) by wine experts
 
- 
+ <img width="893" height="796" alt="image" src="https://github.com/user-attachments/assets/9398d374-a4db-4547-9d7b-2c60346a566d" />
+
 Figure 1. Correlation Map
 
 ### Some observations from the correlation map and exploratory analysis are:
@@ -169,6 +170,8 @@ quality of the final clusters.
 ## Fitting the Model
 
 k_means.fit(X)
+<img width="321" height="75" alt="image" src="https://github.com/user-attachments/assets/ce02fb76-bc33-40e1-8acf-c192cde2b46c" />
+Figure 2. K-Means Model
 
 This line of code trains the K-means model using the provided data X. The algorithm will find
 the cluster centroids and assign each data point to one of the clusterNum clusters based on
@@ -192,7 +195,9 @@ different number of clusters might yield better results.
 
 Scatter Plots:
 
-Figure 2. Volatile Acidity, Alcohol Content, and pH Scatterplot
+<img width="574" height="442" alt="image" src="https://github.com/user-attachments/assets/8628bc5e-6077-4992-b020-5c90670bbccd" />
+
+Figure 3. Volatile Acidity, Alcohol Content, and pH Scatterplot
 
 The scatter plot visualizes the relationship between three wine characteristics: volatile acidity,
 alcohol content, and pH. Wines with similar volatile acidity, alcohol content, and pH tend to
@@ -202,7 +207,9 @@ corresponds to the center of one of these clusters. These centers represent typi
 characteristics for each group of wines. Wines with higher volatile acidity tend to have lower
 alcohol content. Conversely, wines with lower volatile acidity have higher alcohol content.
 
-Figure 3. D scatter plot representing volatile acidity, alcohol content, and Free Sulphur
+<img width="1027" height="1027" alt="image" src="https://github.com/user-attachments/assets/f7784c49-7859-4f83-aff5-2d010860805a" />
+
+Figure 4. D scatter plot representing volatile acidity, alcohol content, and Free Sulphur
 Dioxide
 
 This scatter plot visualizes the relationship between three wine characteristics: volatile acidity,
@@ -283,7 +290,8 @@ level, and they have low sulphates and alcohol content.
 The same interpretation can be applied to the other two centroids. Each represents a different
 group of wines with their own unique characteristics.
 
-Figure 4. Centroids
+<img width="797" height="182" alt="image" src="https://github.com/user-attachments/assets/4fd40bf8-0019-4ee0-afd0-e354773ea437" />
+Figure 5. Centroids
 
 ## Conclusion
 
