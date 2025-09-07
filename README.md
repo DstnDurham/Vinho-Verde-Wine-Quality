@@ -417,21 +417,15 @@ print(f"Inter-cluster Distance (Inertia): {inter_cluster_distances:.2f}")
 
 Bhardwaj, A. (2020, May 27). Silhouette coefficient : Validating clustering techniques.
 
-Medium. https://towardsdatascience.com/silhouette-coefficient-validating-clustering-
-
-techniques-e976bb81d10c
+Medium. https://towardsdatascience.com/silhouette-coefficient-validating-clustering-techniques-e976bb81d10c
 
 Education Ecosystem (LEDU). (2018, September 12). Understanding K-means clustering in
 
-machine learning. Medium. https://towardsdatascience.com/understanding-k-means-
-
-clustering-in-machine-learning-6a6e67336aa
+machine learning. Medium. https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa
 
 K-means advantages and disadvantages. (n.d.). Google for Developers.
 
-https://developers.google.com/machine-learning/clustering/algorithm/advantages-
-
-disadvantages
+https://developers.google.com/machine-learning/clustering/algorithm/advantages-disadvantages
 
 ML | Intercluster and Intracluster distance. (2021, August 8). GeeksforGeeks.
 
@@ -439,12 +433,8 @@ https://www.geeksforgeeks.org/ml-intercluster-and-intracluster-distance/
 
 Ryzhkov, E. (2020, July 23). 5 stages of data Preprocessing for K-means clustering. Medium.
 
-https://medium.com/@evgen.ryzhkov/5-stages-of-data-preprocessing-for-k-means-
-
-clustering-b755426f
+https://medium.com/@evgen.ryzhkov/5-stages-of-data-preprocessing-for-k-means-clustering-b755426f
 
 Wine quality data set (Red & white wine). (n.d.). Kaggle: Your Machine Learning and Data
 
-Science Community. https://www.kaggle.com/datasets/ruthgn/wine-quality-data-set-red-
-
-white-wine?
+Science Community. https://www.kaggle.com/datasets/ruthgn/wine-quality-data-set-red-white-wine?
