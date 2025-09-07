@@ -293,6 +293,7 @@ The same interpretation can be applied to the other two centroids. Each represen
 group of wines with their own unique characteristics.
 
 <img width="797" height="182" alt="image" src="https://github.com/user-attachments/assets/4fd40bf8-0019-4ee0-afd0-e354773ea437" />
+
 Figure 5. Centroids
 
 ## Conclusion
