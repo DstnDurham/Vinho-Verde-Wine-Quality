@@ -149,7 +149,8 @@ noise, making it easier for the algorithm to identify clusters.
 
 The clusters were developed using KMeans from sklearn.cluster
 
-clusterNum = 3
+clusterNum = 3  
+
 k_means = KMeans(init = "k-means++", n_clusters = clusterNum, n_init = 12)
 
 The variable clusterNum represents the desired number of clusters you want to create using the
