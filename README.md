@@ -149,9 +149,11 @@ noise, making it easier for the algorithm to identify clusters.
 
 The clusters were developed using KMeans from sklearn.cluster
 
+```
 clusterNum = 3  
 
 k_means = KMeans(init = "k-means++", n_clusters = clusterNum, n_init = 12)
+```
 
 The variable clusterNum represents the desired number of clusters you want to create using the
 K-means algorithm. Next, we initialize the K-means clustering algorithm.
@@ -322,34 +324,46 @@ outliers, leading to suboptimal cluster assignments.
 
 **Data Transforming**:
 
+```
 #Drop the 'type' column from the DataFrame 'cust_df'
 
 df = cust_df.drop('type', axis=1)
+```
 
 **Data Normalization**:
 
+```
 #Import StandardScaler from sklearn.preprocessing
 
 from sklearn.preprocessing import StandardScaler
+```
 
+```
 #Extract features (excluding the first column) from the DataFrame 'df'
 
 X = df.values[:, 1:]
+```
 
+```
 #Replace any NaN values with zeros
 
 X = np.nan_to_num(X)
+```
 
+```
 #Standardize the features using StandardScaler
 
 X = StandardScaler().fit_transform(X)
 
+
 #Display the standardized features
 
 X
+```
 
 **K-Means Clustering**:
 
+```
 #Fit K-means model
 
 clusterNum = 3
@@ -367,20 +381,29 @@ df["Clus_km"] = labels
 Centroids:
 
 print("Centroids:\n", k_means.cluster_centers_)
+```
 
 **Silhouette Coefficient**:
 
+```
 #Import the silhouette_score function from sklearn.metrics
 
 from sklearn.metrics import silhouette_score
+```
 
+```
 #Calculate the silhouette coefficient
 
 silhouette_coef = silhouette_score(X, labels)
+```
 
+```
 #Print the result
 
 print(f"Silhouette Coefficient: {silhouette_coef:.2f}")
+```
+
+```
 
 Intra-cluster Distance:
 
@@ -397,22 +420,29 @@ centroid = k_means.cluster_centers_[cluster_id]
 distances = np.linalg.norm(cluster_points - centroid, axis=1)
 
 intra_cluster_distances.append(distances.mean())
+```
 
+```
 #Print intra-cluster distances
 
 for cluster_id, distance in enumerate(intra_cluster_distances):
 
 print(f"Cluster {cluster_id}: Intra-cluster distance = {distance:.2f}")
+```
 
+```
 Inter-cluster Distance:
 
 #Calculate the inter-cluster distances (inertia) using k-means
 
 inter_cluster_distances = k_means.inertia_
+```
 
+```
 Print the result
 
 print(f"Inter-cluster Distance (Inertia): {inter_cluster_distances:.2f}")
+```
 
 ## References
 
