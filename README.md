@@ -233,9 +233,7 @@ better-defined clusters. We can explore feature engineering to improve this. The
 show that data points within clusters are relatively close. While reasonable, we can strive for
 even tighter cohesion within clusters.
 
-**Evaluation** : employ appropriate metrics (measures) to quantitatively evaluate the performance
-
-of the clusters. For unsupervised classification, this primarily involves distance metrics.
+**Evaluation** : employ appropriate metrics (measures) to quantitatively evaluate the performance of the clusters. For unsupervised classification, this primarily involves distance metrics.
 
 **Intra-cluster Distance** : Intra-cluster distance measures the average distance between data
 points within the same cluster. Lower values indicate tighter groupings, while higher values
